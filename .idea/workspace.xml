@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Final A2">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" afterDir="false" />
+    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Parcial A3">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694788124300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Parcial A3">
+      <option name="closed" value="true" />
+      <created>1694789744540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694789744540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parcial A2" />
     <MESSAGE value="Final A2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final A2" />
+    <MESSAGE value="Parcial A3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial A3" />
   </component>
 </project>
