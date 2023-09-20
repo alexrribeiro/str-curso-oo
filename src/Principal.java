@@ -1,4 +1,6 @@
 import br.com.alexrribeiro.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alexrribeiro.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alexrribeiro.screenmatch.modelos.Episodio;
 import br.com.alexrribeiro.screenmatch.modelos.Filme;
 import br.com.alexrribeiro.screenmatch.modelos.Serie;
 
@@ -9,6 +11,8 @@ public class Principal {
         favorito.setAnoDeLancamento(1999);
         favorito.setDuracaoEmMinutos(135);
         favorito.setIncluidoNoPlano(true);
+        favorito.avalia(10);
+        favorito.avalia(9);
 
         Filme outro = new Filme();
         outro.setNome("John Wick");
@@ -25,11 +29,23 @@ public class Principal {
         serie.setEpisodiosPorTemporada(10);
         serie.setMinutosPorEpisodio(45);
 
+        Serie lost = new Serie();
+        lost.setNome("Lost");
+
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(favorito);
         calculadora.inclui(outro);
         calculadora.inclui(serie);
 
         System.out.println("Tempo total: " +calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(favorito);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
     }
 }
