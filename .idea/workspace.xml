@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Final A1 - Curso II">
+    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Final A2 - Curso II">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +43,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrincipalComListas">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alexrribeiro.screenmatch.principal.Principal" />
       <module name="screenmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalComListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alexrribeiro.screenmatch.principal.PrincipalComListas" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alexrribeiro.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
@@ -123,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695397547696</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final A2 - Curso II">
+      <option name="closed" value="true" />
+      <created>1695741672652</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695741672652</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +156,7 @@
     <MESSAGE value="Final A4" />
     <MESSAGE value="Final A1" />
     <MESSAGE value="Final A1 - Curso II" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final A1 - Curso II" />
+    <MESSAGE value="Final A2 - Curso II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final A2 - Curso II" />
   </component>
 </project>
