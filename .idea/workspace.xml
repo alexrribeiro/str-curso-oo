@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Final A2 - Curso II">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Parcial A3 - Curso II">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695741672652</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Parcial A3 - Curso II">
+      <option name="closed" value="true" />
+      <created>1695829605785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695829605785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +164,7 @@
     <MESSAGE value="Final A1" />
     <MESSAGE value="Final A1 - Curso II" />
     <MESSAGE value="Final A2 - Curso II" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final A2 - Curso II" />
+    <MESSAGE value="Parcial A3 - Curso II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial A3 - Curso II" />
   </component>
 </project>

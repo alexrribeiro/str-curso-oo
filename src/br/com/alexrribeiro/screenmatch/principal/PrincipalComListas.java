@@ -5,6 +5,7 @@ import br.com.alexrribeiro.screenmatch.modelos.Serie;
 import br.com.alexrribeiro.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -15,12 +16,14 @@ public class PrincipalComListas {
         var filmeDoPaulo = new Filme("Dogville", 2003);
         filmeDoPaulo.avalia(10);
         Serie lost = new Serie("Lost", 2000);
+        Serie theOffice = new Serie("The Office", 2004);
 
         ArrayList<Titulo> listaHistorico = new ArrayList<>();
         listaHistorico.add(filmeDoPaulo);
         listaHistorico.add(meuFilme);
         listaHistorico.add(outroFilme);
         listaHistorico.add(lost);
+        listaHistorico.add(theOffice);
 
         for (Titulo item : listaHistorico) {
             System.out.println(item.getNome());
@@ -28,9 +31,21 @@ public class PrincipalComListas {
             if (item instanceof Filme filme && filme.getClassificacao() > 2) {
                 System.out.println("Classificação: " + filme.getClassificacao());
             }
-
-
         }
 
+        ArrayList<String> buscaPorArtista = new ArrayList<>();
+        buscaPorArtista.add("Adam Sandler");
+        buscaPorArtista.add("Sandra Bullock");
+        buscaPorArtista.add("Arnold Schwarzenegger");
+
+        System.out.println(buscaPorArtista);
+
+        Collections.sort(buscaPorArtista);
+        System.out.println("Depois da ordenação");
+        System.out.println(buscaPorArtista);
+
+        Collections.sort(listaHistorico);
+        System.out.println("Lista de títulos ordenados");
+        System.out.println(listaHistorico);
     }
 }
