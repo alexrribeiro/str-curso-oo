@@ -4,8 +4,7 @@ import br.com.alexrribeiro.screenmatch.modelos.Filme;
 import br.com.alexrribeiro.screenmatch.modelos.Serie;
 import br.com.alexrribeiro.screenmatch.modelos.Titulo;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
@@ -18,7 +17,7 @@ public class PrincipalComListas {
         Serie lost = new Serie("Lost", 2000);
         Serie theOffice = new Serie("The Office", 2004);
 
-        ArrayList<Titulo> listaHistorico = new ArrayList<>();
+        List<Titulo> listaHistorico = new LinkedList<>();
         listaHistorico.add(filmeDoPaulo);
         listaHistorico.add(meuFilme);
         listaHistorico.add(outroFilme);
@@ -46,6 +45,10 @@ public class PrincipalComListas {
 
         Collections.sort(listaHistorico);
         System.out.println("Lista de títulos ordenados");
+        System.out.println(listaHistorico);
+
+        listaHistorico.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
+        System.out.println("Ordenando por ano");
         System.out.println(listaHistorico);
     }
 }

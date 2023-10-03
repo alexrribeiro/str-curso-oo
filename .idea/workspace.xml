@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Parcial A3 - Curso II">
+    <list default="true" id="a48eb31a-a40b-40c2-83ca-3a0f0a1f4651" name="Changes" comment="Parcial A4 - Curso II">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/modelos/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/PrincipalComListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alexrribeiro/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695829605785</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Parcial A4 - Curso II">
+      <option name="closed" value="true" />
+      <created>1696259600267</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696259600268</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,6 +173,7 @@
     <MESSAGE value="Final A1 - Curso II" />
     <MESSAGE value="Final A2 - Curso II" />
     <MESSAGE value="Parcial A3 - Curso II" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parcial A3 - Curso II" />
+    <MESSAGE value="Parcial A4 - Curso II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial A4 - Curso II" />
   </component>
 </project>
