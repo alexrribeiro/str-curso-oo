@@ -1,5 +1,6 @@
 package br.com.alexrribeiro.screenmatch.principal;
 
+import br.com.alexrribeiro.screenmatch.excecao.ErroDeConversaoDeAnoExcepction;
 import br.com.alexrribeiro.screenmatch.modelos.Titulo;
 import br.com.alexrribeiro.screenmatch.modelos.TituloOmdb;
 import com.google.gson.FieldNamingPolicy;
@@ -20,7 +21,7 @@ public class PrincipalComBusca {
         var busca = scanner.nextLine();
 
         try {
-            String endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=222296d0";
+            String endereco = "http://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=222296d0";
 
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
@@ -47,9 +48,8 @@ public class PrincipalComBusca {
         } catch (IllegalArgumentException e) {
             System.out.println("Algum erro de argumento na busca, verifique o endereço.");
             System.out.println(e.getMessage());
-        } catch (Exception e) {
-            System.out.println("Deu um erro aí, sei lá qual.");
-            System.out.println(e.getMessage()           );
+        } catch (ErroDeConversaoDeAnoExcepction e) {
+            System.out.println(e.getMessage());
         }
         System.out.println("Programa finalizaou corretamente.");
     }
